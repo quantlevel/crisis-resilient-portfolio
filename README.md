@@ -118,4 +118,3 @@ This project is built with a production-grade directory structure suitable for a
 
 ---
 
-*This project is for educational and academic purposes only. Past performance is not indicative of future results.*
