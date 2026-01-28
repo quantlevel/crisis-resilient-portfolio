@@ -100,8 +100,8 @@ This project is built with a production-grade directory structure suitable for a
 
 1.  **Clone the repository**
     ```bash
-    git clone https://github.com/yourusername/robust-portfolio-engineering.git
-    cd robust-portfolio-engineering
+    git clone https://github.com/quantlevel/crisis-resilient-portfolio.git
+    cd crisis-resilient-portfolio
     ```
 
 2.  **Install dependencies**
@@ -117,4 +117,5 @@ This project is built with a production-grade directory structure suitable for a
     ```
 
 ---
+
 
