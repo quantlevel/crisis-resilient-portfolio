@@ -6,7 +6,7 @@
 
 ## 📊 Executive Summary
 
-This project investigates the fragility of traditional portfolio optimization techniques during the **2022 Correlation Crisis**. For decades, the negative correlation between equities and fixed income provided a reliable "free lunch" of diversification. In 2022, this relationship collapsed as the Federal Reserve engaged in aggressive monetary tightening, causing both asset classes to fall simultaneously.
+This project investigates the fragility of traditional portfolio optimization techniques during the **2022 Correlation Crisis**. For decades, the negative correlation between equities and fixed income provided a reliable means diversification. In 2022, this relationship collapsed as the Federal Reserve engaged in aggressive monetary tightening, causing both asset classes to fall simultaneously.
 
 Using a rigorous backtesting framework spanning **2019–2023**, this analysis compares the out-of-sample performance of three distinct allocation paradigms:
 1.  **Hierarchical Risk Parity (HRP)**: A machine learning approach that utilizes graph theory and hierarchical clustering to allocate capital based on the underlying correlation structure.
@@ -123,6 +123,7 @@ This project is built with a production-grade directory structure suitable for a
     ```
 
 ---
+
 
 
 
