@@ -1,6 +1,6 @@
 # Robust Portfolio Engineering: Navigating the 2022 Correlation Crisis
 
-> **A computational finance case study on tail-risk optimization and the breakdown of traditional stock-bond hedging.**
+
 
 ![Cumulative Returns](images/cumulative_returns.png)
 
@@ -117,5 +117,6 @@ This project is built with a production-grade directory structure suitable for a
     ```
 
 ---
+
 
 
