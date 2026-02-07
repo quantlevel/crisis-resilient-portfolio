@@ -40,8 +40,14 @@ HRP addresses the instability of quadratic optimizers by replacing matrix invers
 *Figure: Hierarchical clustering of the asset universe (SPY, TLT, GLD, BTC-USD).*
 
 ### 2. CVaR Optimization (Expected Shortfall)
-Unlike volatility (which penalizes upside variance), CVaR focuses purely on downside risk. We minimize the expected loss at the 95% confidence level:
-$$ \text{CVaR}_{\alpha} = E[L \mid L \ge \text{VaR}_{\alpha}] $$
+Unlike standard volatility—which penalizes both upside and downside variance—**CVaR** (also known as Expected Shortfall) focuses exclusively on tail risk. We minimize the expected loss at the 95% confidence level:
+
+$$ \text{CVaR}_{\alpha} = \mathbb{E}[L \mid L \ge \text{VaR}_{\alpha}] $$
+
+**Where:**
+*   $\alpha$: The confidence level (e.g., 0.95).
+*   $L$: The loss distribution.
+*   $\text{VaR}_{\alpha}$: The Value at Risk (the minimum loss threshold for the worst $(1-\alpha)\%$ of cases).
 
 ### 3. Mean-Variance Optimization (MVO)
 The benchmark strategy maximizes the ex-ante Sharpe Ratio. While theoretically optimal under Gaussian assumptions, it is notoriously sensitive to input estimation errors ("error maximization").
@@ -117,6 +123,7 @@ This project is built with a production-grade directory structure suitable for a
     ```
 
 ---
+
 
 
 
