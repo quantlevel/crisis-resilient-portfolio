@@ -123,8 +123,17 @@ This project is built with a production-grade directory structure suitable for a
     ```
 
 ---
+## 📚 References
 
 
+* **[Markowitz, 1952]** Markowitz, H. (1952). Portfolio Selection. *The Journal of Finance*, 7(1):77–91.
+* **[López de Prado, 2016]** López de Prado, M. (2016). Building Diversified Portfolios that Outperform Out of Sample. *The Journal of Portfolio Management*, 42(4):59–69.
+* **[Rockafellar & Uryasev, 2000]** Rockafellar, R. T., & Uryasev, S. (2000). Optimization of Conditional Value-at-Risk. *Journal of Risk*, 2:21–42.
+* **[Ledoit & Wolf, 2004]** Ledoit, O., & Wolf, M. (2004). A well-conditioned estimator for large-dimensional covariance matrices. *Journal of Multivariate Analysis*, 88(2):365–411.
+* **[Krokhmal et al., 2002]** Krokhmal, P., Palmquist, J., & Uryasev, S. (2002). Portfolio optimization with conditional value-at-risk objective and constraints. *Journal of Risk*, 4:43–68.
+* **[Artzner et al., 1999]** Artzner, P., Delbaen, F., Eber, J. M., & Heath, D. (1999). Coherent Measures of Risk. *Mathematical Finance*, 9(3):203–228.
+
+---
 
 
 
